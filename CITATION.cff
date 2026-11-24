@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper."
+title: "MSINet: A Mask Structure Inference Network for Scene Text Image Super-Resolution"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Runmin
+  - family-names: Yuan
+    given-names: Shengrong
+  - family-names: Ye
+    given-names: Shan
+  - family-names: Song
+    given-names: Xingdong
+  - family-names: Xu
+    given-names: Han
+  - family-names: Qian
+    given-names: Shengyou
+  - family-names: Gao
+    given-names: Changxin
+  - family-names: Sang
+    given-names: Nong
+repository-code: "https://github.com/Yuanssr/MSINet"
+url: "https://doi.org/10.1109/TCSVT.2026.3667545"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "MSINet: A Mask Structure Inference Network for Scene Text Image Super-Resolution"
+  authors:
+    - family-names: Wang
+      given-names: Runmin
+    - family-names: Yuan
+      given-names: Shengrong
+    - family-names: Ye
+      given-names: Shan
+    - family-names: Song
+      given-names: Xingdong
+    - family-names: Xu
+      given-names: Han
+    - family-names: Qian
+      given-names: Shengyou
+    - family-names: Gao
+      given-names: Changxin
+    - family-names: Sang
+      given-names: Nong
+  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
+  year: 2026
+  volume: 36
+  issue: 6
+  start: 7894
+  end: 7908
+  doi: "10.1109/TCSVT.2026.3667545"

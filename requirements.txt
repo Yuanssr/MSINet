@@ -1,0 +1,23 @@
+# The original inspected environment used Python 3.8.10, a development build
+# of PyTorch 1.14, torchvision 0.15.0a0, and CUDA 11.8. Install a PyTorch build
+# appropriate for your CUDA/CPU platform separately before this file.
+torch>=1.10,<2.0
+torchvision>=0.11,<0.15
+timm==0.3.2
+numpy>=1.20,<2
+opencv-python>=4.5
+Pillow>=8.0
+lmdb>=1.2
+PyYAML>=5.4
+easydict>=1.9
+imgaug>=0.4.0
+tensorboard>=2.8
+editdistance>=0.6
+lpips>=0.1.4
+ptflops>=0.6
+scipy>=1.7
+matplotlib>=3.4
+seaborn>=0.11
+six>=1.15
+ipython>=7.0
+tqdm>=4.60

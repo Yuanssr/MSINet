@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.coverage
+
+# Editors and local environments
+.idea/
+.vscode/
+.env
+.venv/
+venv/
+
+# Data, checkpoints, and experiment products
+/data/
+/datasets/
+/checkpoints/
+/pretrained/
+/weights/
+/runs/
+/logs/
+/outputs/
+/output_dir/
+results/
+*.pth
+*.pt
+*.ckpt
+*.lmdb
+events.out.tfevents.*
+
+# Local demos and scratch artifacts (source code is intentionally not deleted)
+demo/
+SIMLI.png
+simhei.png
+simkai.png
+test.png
+111.py
+222.py
+length_compare.py
+resize.py
+test[0-9]*.py
+test.py
+*.docx
+*.pdf
+
+# Third-party source without a redistribution license
+model/MPNCOV/
+
+# Original server-specific experiment configuration (retained locally)
+config/super_resolution.yaml
+
+# Internal release audit documents
+OPEN_SOURCE_AUDIT.md
+CHECKPOINT_PROVENANCE.md
+RELEASE_REPORT.md
+
+# OS metadata
+.DS_Store
+Thumbs.db

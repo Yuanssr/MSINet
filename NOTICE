@@ -1,0 +1,9 @@
+MSINet
+Copyright 2026 MSINet Authors
+
+Original MSINet code is licensed under the Apache License, Version 2.0.
+
+This distribution includes or adapts third-party software. Those components
+remain subject to their respective licenses and notices, as documented in
+THIRD_PARTY_NOTICES.md. The Apache-2.0 project license does not relicense
+third-party code, model weights, or datasets.

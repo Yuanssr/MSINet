@@ -8,20 +8,6 @@ Changxin Gao, and Nong Sang
 
 [[Paper / DOI](https://doi.org/10.1109/TCSVT.2026.3667545)]
 
-## Overview
-
-MSINet addresses scene text image super-resolution (STISR) through a
-Mask-and-Inference Paradigm (MIP). A masked autoencoder first learns character
-structure from unlabeled text images. During STISR fine-tuning, the Text
-Confidence Mask (TCM) identifies difficult character regions and drives masked
-structure inference, while sequential residual blocks produce the final SR
-image.
-
-The TCM recognizer estimates character-region difficulty and supplies a
-confidence map for mask generation. Recognition output is **not directly
-injected into the MAE/SR refinement backbone as a recognition prior**. The
-released configurations use the ABINet-based confidence generator.
-
 ## Installation
 
 The supplied environment is defined in `environment.yml`: Python 3.8,

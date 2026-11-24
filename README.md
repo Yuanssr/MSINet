@@ -83,8 +83,7 @@ available in the [Baidu Netdisk `ckpt` folder (extraction code: `f5aw`)](https:/
 | TATT | Base SR initialization for MSINet-B training | [Baidu Netdisk (`f5aw`)](https://pan.baidu.com/s/1lZGkd8t85VFxCfVNJmJaew?pwd=f5aw) |
 
 Place files under `weights/` as referenced by
-`config/msinet_small.yaml` or `config/msinet_base.yaml`. Checkpoint files and
-datasets are ignored by Git.
+`config/msinet_small.yaml` or `config/msinet_base.yaml`.
 
 The released MSINet-S and MSINet-B checkpoints contain the MAE/SR weights and
 omit `Confidence_generator.*`. TCM remains enabled by default and loads its
@@ -109,9 +108,6 @@ ConfidenceMapGenerator:
     checkpoint: "weights/abinet/pretrain-language-model.pth"
 ```
 
-No separate TCM training is needed when using the released MSINet checkpoints.
-The MSINet-B checkpoint published for this release was evaluated with this
-separate ABINet initialization; the resulting CRNN accuracy is 64.372% overall.
 
 ## MAE weight preparation
 

@@ -44,9 +44,7 @@ redistributed here. Add their directories to `TRAIN.VAL.val_data_dir` only when
 running the corresponding evaluation protocol.
 
 ## Model zoo and dependencies
-
-Model weights are not included in this repository. Download the upstream
-initialization weights from their project pages and prepare the remaining
+Download the upstream initialization weights from their project pages and prepare the remaining
 checkpoints as described below. The MSINet and TextZoom-adapted checkpoints are
 available in the [Baidu Netdisk `ckpt` folder (extraction code: `f5aw`)](https://pan.baidu.com/s/1lZGkd8t85VFxCfVNJmJaew?pwd=f5aw).
 

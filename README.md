@@ -184,33 +184,6 @@ the paper.
 | MSINet-S | 24.56 / 0.8994 | 19.76 / 0.7010 | 20.75 / 0.7809 | 21.84 / 0.7990 |
 | MSINet-B | 25.11 / 0.9055 | 20.49 / 0.7232 | 21.43 / 0.7970 | 22.49 / 0.8100 |
 
-### Reproduced MSINet-B result
-
-The MSINet-B checkpoint was evaluated using this repository, the official
-ABINet checkpoint for TCM, CRNN, the TextZoom test splits, and `--seed 1234`:
-
-| Source | Easy | Medium | Hard | Overall |
-|---|---:|---:|---:|---:|
-| Paper | 72.1 | 64.8 | 52.3 | 63.7 |
-| Reproduced | 73.13 | 65.49 | 52.64 | 64.372 |
-
-| Source | Easy PSNR/SSIM | Medium PSNR/SSIM | Hard PSNR/SSIM | Overall PSNR/SSIM |
-|---|---:|---:|---:|---:|
-| Paper | 25.11 / 0.9055 | 20.49 / 0.7232 | 21.43 / 0.7970 | 22.49 / 0.8100 |
-| Reproduced | 25.13 / 0.9058 | 20.50 / 0.7233 | 21.41 / 0.7971 | 22.4931 / 0.8135 |
-
-TCM samples patches randomly within each confidence stratum. The fixed seed is
-therefore part of the reported reproduction command. See
-[`docs/MSINET_B_REPRODUCTION.md`](docs/MSINET_B_REPRODUCTION.md) for the exact
-protocol.
-
-## Configuration details
-
-Both model variants use TCM ratios `[0.4, 0.3, 0.2, 0.1]`. The Base
-configuration uses a TATT checkpoint for its base super-resolution branch;
-the Small configuration uses bicubic initialization. These settings are
-defined in the released YAML files. The MSINet-B CRNN evaluation is documented
-in [`docs/MSINET_B_REPRODUCTION.md`](docs/MSINET_B_REPRODUCTION.md).
 
 ## Acknowledgements
 
